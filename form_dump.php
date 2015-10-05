@@ -40,7 +40,7 @@
 		
 		<ul>
 		
-		<?php foreach ( $_POST as $element ) : ?>	
+		<?php foreach ( $_POST as $key => $element ) : ?>	
 			
 			<li><?php echo ( "' " . $key . " ' -> " . $element);?></li>
 			
